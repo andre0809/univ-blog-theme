@@ -3365,7 +3365,7 @@ footer [class*="s-footer__"] > .row [class*="col-"]:last-child {
   width: 6rem;
   line-height: 6rem;
   text-align: center;
-  background-image: url(../images/icons/icon-arrow-up.svg);
+  /*background-image: url(.../images/icons/icon-arrow-up.svg); */
   background-color: #000000;
   background-repeat: no-repeat;
   background-position: center center;

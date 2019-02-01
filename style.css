@@ -3225,7 +3225,7 @@ footer [class*="s-footer__"] > .row [class*="col-"]:last-child {
   height: 5.4rem;
   font-size: 1.5rem;
   padding: 1.2rem 100px 1.2rem 60px;
-  background: url(../images/icons/icon-mail.svg) 20px center no-repeat, rgba(0, 0, 0, 0.25);
+  background: url(../univ-theme/images/icons/icon-mail.svg) 20px center no-repeat, rgba(0, 0, 0, 0.25);
   background-size: 24px 16px, auto;
   margin-bottom: 1.8rem;
   color: white;
@@ -3370,8 +3370,8 @@ footer [class*="s-footer__"] > .row [class*="col-"]:last-child {
   width: 6rem;
   line-height: 6rem;
   text-align: center;
-  background-image: url(../images/icons/icon-arrow-up.svg);
-  background-color: #000000;
+  background-image: url(../univ-theme/images/icons/icon-arrow-up.svg);
+  background-color: black;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 7px 16px;
