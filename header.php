@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <meta charset="utf-8">
-    <title>Blog Univ Theme</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Univ Theme</title>
 		<?php wp_head(); ?>
 	</head>
 	<body id="top">
@@ -26,7 +24,7 @@
     <header class="s-header header">
 
         <div class="header__logo">
-            <a class="logo" href="index.html">
+            <a class="logo" href="<?php echo site_url()?>">
                 <img src="<?php echo get_theme_file_uri('images/logo.svg')?>" alt="Homepage">
             </a>
         </div> <!-- end header__logo -->

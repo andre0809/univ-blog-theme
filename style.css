@@ -2869,7 +2869,7 @@ body.search-is-visible {
 }
 
 .s-content--top-padding {
-  padding-top: 16.2rem;
+  padding-top: 10rem;
 }
 
 .s-content__header {
@@ -2887,7 +2887,7 @@ body.search-is-visible {
 
 .s-content__main img, .entry__main img {
   max-width: 1000px;
-  margin: 3rem 0 3rem -7rem;
+  margin: 2rem 0 3rem -7rem;
 }
 
 .s-content__main p img, .entry__main p img {
@@ -2895,8 +2895,17 @@ body.search-is-visible {
 }
 
 .entry__main {
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
+.entry__main p{
+  line-height: 3rem;
+  text-align: justify;
+}
+.entry__main img {
+  margin-left:0;
+  width: 100%;
+  }
+
 
 /* -------------------------------------------------------------------
  * responsive:
@@ -3708,7 +3717,7 @@ footer [class*="s-footer__"] > .row [class*="col-"]:last-child {
  * ------------------------------------------------------------------- */
 .s-content__entry-nav {
   margin-top: 12rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   padding: 6.6rem 0 9rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
